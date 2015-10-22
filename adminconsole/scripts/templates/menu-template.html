@@ -1,0 +1,18 @@
+<script type="text/template" id="menu-template">
+
+    <div id='cssmenu' class="paper-panel">
+        <ul>
+            <% for (var i = 0; i< items.length; ++i) {
+            var item = items[i];
+            var selected = item.selected ? 'active': '';
+            var last = i == (items.length-1);
+            %>
+                <li class="<%= last %> <%= selected %>">
+                    <a data-path="<%= item.path %>"><%= item.name %></a>
+                </li>
+            <% } %>
+
+        </ul>
+    </div>
+
+</script>
