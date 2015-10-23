@@ -1,2 +1,3 @@
 #!/bin/bash
-forever start admin.js doc.js ../landing/app.js ../playground/app.js
+
+forever start admin.js&&forever start doc.js&&forever start ../landing/app.js&&forever start ../playground/app.js
