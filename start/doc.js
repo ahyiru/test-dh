@@ -1,5 +1,5 @@
-var PORT=8081;
-var DIR='../adminconsole';
+var PORT=8888;
+var DIR='../restapidocs';
 
 var http=require('http');
 var url=require('url');
