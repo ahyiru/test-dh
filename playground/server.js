@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-UserApp.initialize({appId: '55d4b6eb20d74'});
+UserApp.initialize({appId: '561efd158187e'});
 
 
 var cookieAuth = function (req, res, next) {

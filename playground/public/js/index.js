@@ -2,7 +2,7 @@
  * Created by Sergey on 8/21/2015.
  */
 
-UserApp.initialize({ appId: "55d4b6eb20d74" });
+UserApp.initialize({ appId: "561efd158187e" });
 
 // Get the logged in user
 function getCurrentUser(callback) {
