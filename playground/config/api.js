@@ -9,7 +9,7 @@ var myhost='http://139.129.117.113';
 module.exports = {
 
     api_url: envexpand(process.env.DH_API_URL) || myhost+":8080/dh/rest",
-    admin_url: envexpand(process.env.DH_ADMIN_URL) || myhost+":8081",
+    admin_url: envexpand(process.env.DH_ADMIN_URL) || myhost+":8081/index.html",
     dashboard_url: envexpand(process.env.DH_DASHBOARD_URL) || myhost+":8082",
     swagger_url: envexpand(process.env.DH_SWAGGER_URL) || myhost+":8083",
 
